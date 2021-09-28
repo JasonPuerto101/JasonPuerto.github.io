@@ -43,6 +43,8 @@
         createCollectable(type.max, 100, 350, 10, 0.9);
         createCollectable(type.grace, 200, 450, 8, 0.6);
         createCollectable(type.db, 500, 500, 4, 0.4);
+        createCollectable(type.grace, 425, 650)
+        createCollectable(type.max, 746, 650)
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
     };
