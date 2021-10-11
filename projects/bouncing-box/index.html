@@ -73,7 +73,7 @@
 			function update() {
 				myVariable = myVariable + 10;
 				moveBoxTo(positionX)
-
+			}
 				// When you first create the Variable...
 var positionX = 0;
 
@@ -96,7 +96,6 @@ moveBoxTo(positionX);
 
 // so on...
 				
-			};
 			/* 
 			This Function will be called each time the box is clicked. Each time it is called,
 			it should increase the points total, increase the speed, and move the box to
@@ -131,14 +130,13 @@ moveBoxTo(positionX);
 
 			function handleBoxClick() {
 				positionX = 0;
+				
+				points = points + 1;
 
-				positionX = positionX + 1;
-
-				changeBoxText(points);
+				changeBoxText(1);
 			}
 
 			};
-		})();
 	</script>
 </body>
 </html>
