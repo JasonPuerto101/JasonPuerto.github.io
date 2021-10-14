@@ -71,7 +71,24 @@
 		   	function update() {
 				positionX = positionX + 10;
 				moveBoxTo(positionX);
-				
+				speed = 10
+
+				//Frame 1
+				positionX = 0 + 10;
+				moveBoxTo(positionX);
+				//Frame 2
+				positionX = 10 + 10;
+				moveBoxTo(positionX);
+				// Box has been clicked
+				positionX = 0;
+				// Back to update...
+				//Frame 3
+				positionX = 0 + 10;
+				moveBoxTo(positionX);
+				//Frame 4
+				positionX = 10 + 10;
+				moveBoxTo(positionX);
+
 			}
 
 		   /*
@@ -80,13 +97,15 @@
 		   the left side of the screen.
 		   */
 
-		   	/*function handleBoxClick() {
+		   	function handleBoxClick() {
 				positionX = 0;
-				changeBoxText(1);
+				changeBoxText(1); 
 				points = points + 1;
 				changeBoxText(points);
+				speed = 3
+				
 			}
-			*/
+			
 		})();
 	</script>	   
 </body>
