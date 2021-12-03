@@ -14,6 +14,7 @@ var init = function (window) {
 
         window.opspark.game = {};
         var game = window.opspark.game;
+    }
 
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM SETUP ////////////////////////////
@@ -117,7 +118,7 @@ var init = function (window) {
 
             app.addUpdateable(window.opspark.game);
         }
-    };
+    
 
     // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
     if ((typeof process !== 'undefined') &&
@@ -126,4 +127,4 @@ var init = function (window) {
         module.exports = init;
     }
 
-}
+
